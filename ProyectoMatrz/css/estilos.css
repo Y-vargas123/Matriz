@@ -1,0 +1,100 @@
+body {
+    font-family: Impact, Haettenschweiler, ;
+    margin: 20px;
+    padding: 0;
+    background-color: #f7f7f7;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+table {
+    border-collapse: collapse;
+    width: 80vw;
+    max-width: 600px;
+    height: 50vh;
+    max-height: 400px;
+    margin: 0 auto;
+    border: 2px solid black;
+}
+
+header {
+    background-color: #08e9e9;
+    color: rgb(8, 8, 8);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    margin: 0;
+    font-size: 36px;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+p {
+    font-size: 18px;
+    color: #666;
+    text-align: justify;
+    margin-bottom: 30px;
+}
+
+footer {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: #e4e0e0;
+    background-color: #141414;
+    padding: 10px;
+}
+
+td {
+    border: 1px solid #0f0f0f;
+    width: calc(100% / 5);
+    height: calc(100% / 10);
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+td:hover {
+    background-color: #1846df;
+}
+
+.desactivado {
+    background-color: #9fafad;
+}
+
+button {
+    align-content: center;
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 5px;
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #7c867d;
+}
+
+.contenedor {
+    position: center;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 20px;
+}
+
+div {
+    text-align: center;
+}
